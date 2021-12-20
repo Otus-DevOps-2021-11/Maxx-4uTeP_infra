@@ -1,0 +1,8 @@
+Host bastion
+	HostName 62.84.114.79
+	IdentityFile ~/.ssh/id_rsa
+	User appuser
+Host someinternalhost
+	HostName 10.128.0.28
+	User appuser
+	ProxyCommand ssh -q -W %h:%p bastion

@@ -1,8 +1,0 @@
-[Unit]
-Description=Puma Service
-After=multi-user.target
-[Service]
-Type=idle
-ExecStart=~/reddit/puma -d
-[Install]
-WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+preemptible              = true
+cloud_id                 = "some_id"
+folder_id                = "some_id"
+zone                     = "ru-central1-a"
+image_id                 = "some_id"
+db_disk_image            = "some_id"
+app_disk_image           = "some_id"
+public_key_path          = "~/.ssh/id_rsa.pub"
+subnet_id                = "some_id"
+service_account_key_file = "../../key/key.json"
+ssh_private_key_file     = "~/.ssh/terraform"
+
+
+

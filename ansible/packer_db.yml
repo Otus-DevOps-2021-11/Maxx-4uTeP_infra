@@ -6,14 +6,13 @@
     - name: Add an Apt signing key, will not download if present
       ansible.builtin.apt_key:
         url: https://www.mongodb.org/static/pgp/server-4.2.asc
-        state: present
+      state: present
 
     - name: Add APT repository
       apt_repository:
         repo: deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.2 multiverse
-        state: present
+      state: present
 
-    # Выполним установку пакета
     - name: Install mongodb package
       apt:
         name: 
@@ -21,7 +20,6 @@
           - git
         state: present
 
-    # Включаем сервис
     - name: Configure service supervisor
       systemd:
         name: mongod

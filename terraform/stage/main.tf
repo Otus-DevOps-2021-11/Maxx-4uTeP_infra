@@ -20,3 +20,4 @@ module "db" {
   subnet_id       = var.subnet_id
   preemptible     = var.preemptible
 }
+

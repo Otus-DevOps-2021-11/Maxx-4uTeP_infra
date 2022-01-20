@@ -1,4 +1,4 @@
-/key
+key.json
 variables.json
 #lab teraform:
 *.tfstate
@@ -7,3 +7,9 @@ variables.json
 *.tfvars
 .terraform/
 config.tf
+*.lock.info
+
+
+#ansible
+*.retry
+*.backup

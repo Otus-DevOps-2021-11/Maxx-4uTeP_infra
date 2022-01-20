@@ -1,5 +1,5 @@
 {
-    "yc_service_account_key": "key.json",
+    "yc_service_account_key": "key/examplekey.json",
     "yc_folder_id": "Some ID here",
     "yc_subnet_id": "Some ID here"
 }

@@ -1,4 +1,4 @@
-/key
+key.json
 variables.json
 #lab teraform:
 *.tfstate

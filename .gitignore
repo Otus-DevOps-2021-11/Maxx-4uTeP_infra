@@ -7,6 +7,8 @@ variables.json
 *.tfvars
 .terraform/
 config.tf
+*.lock.info
+
 
 #ansible
 *.retry

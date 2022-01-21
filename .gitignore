@@ -13,3 +13,6 @@ config.tf
 #ansible
 *.retry
 *.backup
+jdauphant.nginx
+vault.key
+

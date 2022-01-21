@@ -1,0 +1,5 @@
+---
+# vars file for db
+mogo_port: 27017
+mongo_bind_ip: 0.0.0.0
+

@@ -11,7 +11,7 @@
 
 - name: Install mongodb package
   apt:
-    name: 
+    name:
       - mongodb-org
       - git
     state: present
@@ -20,4 +20,5 @@
   systemd:
     name: mongod
     enabled: yes
+
 
